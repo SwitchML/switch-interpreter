@@ -1,0 +1,27 @@
+is-max: a, l ->
+    [] then false
+    [a] then true
+    then f(a, l) ->
+        a < h::ls then false
+        then is-max(a, _::ls)
+
+head, init, tail, last
+some-function: x ->
+    then lane f: x ->
+        then x
+
+some-function(x)(x)
+
+some-function(x) //function
+some-function(x)(x)
+
+add: a, b ->
+    [], b then err('pinga')
+    a, [] then err('pinga')
+    then a + b
+
+>> add(a, b)
+print(add(a, b))
+
+!> add(a, b)
+error(add(a, b))
