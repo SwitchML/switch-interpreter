@@ -28,7 +28,8 @@ const (
 	LPAREN = "("
 	RPAREN = ")"
 
-	CUT = "|"
+	CUT    = "|"
+	INDENT = "    "
 
 	// Keywords
 	THEN = "THEN"
